@@ -1,3 +1,10 @@
+body{
+    font-family: Poppins, sans-serif;
+}
+
+.fvck{
+    margin-top: 100px;
+}
 .dark-mode {
     background-color: #1D1F2C;
     color: #ffffff;
@@ -6,9 +13,15 @@
 .header {
     height: 70px;
     background-color: #3D7EAE;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
 }
+
 
 .header-container {
     float: right;
@@ -81,9 +94,6 @@
     color: var(--font-color-light);
 }
 
-body{
-    font-family: Poppins, sans-serif;
-}
 .dark-mode-button {
     float: right;
     margin-right: 15px;
