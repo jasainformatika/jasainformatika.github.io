@@ -81,6 +81,9 @@
     color: var(--font-color-light);
 }
 
+body{
+    font-family: Poppins, sans-serif;
+}
 .dark-mode-button {
     float: right;
     margin-right: 15px;
