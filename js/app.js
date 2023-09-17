@@ -20,3 +20,4 @@ document.addEventListener('DOMContentLoaded', function () {
     themeSwitch.addEventListener('change', toggleTheme);
     toggleButton.addEventListener('change', toggleTheme);
 });
+
