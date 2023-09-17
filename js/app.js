@@ -1,19 +1,22 @@
-// app.js
-
 document.addEventListener('DOMContentLoaded', function () {
     const themeSwitch = document.getElementById('theme-switch');
+    const body = document.body;
+    const toggleButton = document.getElementById('toggle-button');
 
-    // Fungsi untuk mengubah tema
     function toggleTheme() {
         if (themeSwitch.checked) {
-            // Aktifkan dark mode
-            document.body.classList.add('dark-mode');
+            body.classList.add('dark-mode');
+            localStorage.setItem('theme', 'dark');
         } else {
-            // Nonaktifkan dark mode
-            document.body.classList.remove('dark-mode');
+            body.classList.remove('dark-mode');
+            localStorage.setItem('theme', 'light');
         }
     }
 
-    // Tambahkan event listener ke checkbox
+    const savedTheme = localStorage.getItem('theme');
+    themeSwitch.checked = savedTheme === 'dark';
+    toggleTheme();
+
     themeSwitch.addEventListener('change', toggleTheme);
+    toggleButton.addEventListener('change', toggleTheme);
 });
