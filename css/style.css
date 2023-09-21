@@ -142,12 +142,14 @@ body {
 }
 
 .carditem {
-    margin-top: -10px;
-    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0 auto;
 }
+
 
 .card {
     width: 190px;
