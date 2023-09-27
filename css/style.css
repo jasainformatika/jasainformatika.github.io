@@ -355,7 +355,6 @@ body {
     font-weight: 600;
     cursor: pointer;
     position: relative;
-    z-index: 2;
     transition-duration: 3s;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.144);
     background-size: 200% 200%;
