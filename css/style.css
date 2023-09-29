@@ -87,7 +87,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background: #168781;
-    min-width: 150px;
+    min-width: 100px;
     border: 0;
     border-radius: 4px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
@@ -145,7 +145,8 @@ body {
 
 .card-privasi {
     box-sizing: border-box;
-    width: 190px;
+    width: 100%;
+    max-width: 150px;
     height: 254px;
     background: #8be5d3;
     border: 1px solid white;
@@ -243,9 +244,9 @@ body {
 }
 
 .text {
-    font-size: 14px;
+    font-size: 12px;
     font-family: inherit;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .text--1 {
@@ -276,7 +277,7 @@ body {
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 50%;
+    width: 70%;
 }
 
 .cards {
